@@ -23,7 +23,7 @@ public class basicHTMLfile{
        				filename = in.nextLine();
        				fnwt = filename + ".html";
       				File htmlFile = new  File(fnwt);
-        			if (htmlFile.createNewFile()){
+        			if (htmlFile.createNewFile()){                                                           //creates the files//
     					System.out.println("html file was created");
     					BufferedWriter writer = new BufferedWriter(new FileWriter(fnwt));
     					writer.write(fileContent);
